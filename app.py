@@ -12,8 +12,6 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 model = whisper.load_model("small",device=device)
 
 # Helper Functions
-
-
 def ensure_wav_format(input_path):
     """Ensure audio is converted to mono 16kHz WAV for Whisper."""
     tmp_wav = tempfile.NamedTemporaryFile(suffix=".wav", delete=False).name
