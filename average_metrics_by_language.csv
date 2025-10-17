@@ -1,0 +1,5 @@
+Language,WER,BLEU,BERTScore,Processing Time (s)
+de_de,0.23,0.615,0.968,1.575
+en_us,0.163,0.694,0.974,1.394
+fr_fr,0.237,0.512,0.955,1.772
+hi_in,0.679,0.242,0.91,4.857

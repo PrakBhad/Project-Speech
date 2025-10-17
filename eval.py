@@ -158,7 +158,7 @@ if __name__ == "__main__":
         writer.writeheader()
         writer.writerows(all_results)
 
-    print(f"\n✅ Evaluation complete! Results saved to {OUTPUT_CSV}")
+    print(f"\nEvaluation complete! Results saved to {OUTPUT_CSV}")
 
     # Visualization
     df_results = pd.DataFrame(all_results)
