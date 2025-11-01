@@ -145,4 +145,4 @@ with gr.Blocks(title="Whisper Speech-to-Text Translator") as demo:
 
 # Run App
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
