@@ -1,4 +1,4 @@
-# 🗣️ Speech Processing using NLP
+# Speech Processing using NLP
 
 This project focuses on **Speech Processing** using **Natural Language Processing (NLP)** techniques. It involves converting spoken language into text, analyzing linguistic patterns, and optionally synthesizing speech back from text. The environment leverages **Python 3.9**, **PyTorch 1.13.1**, and **CUDA 11.6** for GPU-accelerated model training and inference.
 
@@ -20,8 +20,8 @@ This project focuses on **Speech Processing** using **Natural Language Processin
 ```bash
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
-
 ```
+
 ### 2. Create the Conda environment
 ``` bash
 conda create -n speech-nlp python=3.9
